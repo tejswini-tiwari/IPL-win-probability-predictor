@@ -2,14 +2,16 @@ version: "3.8"
 
 services:
 
-  backend:
-    build: ./backend
-    ports:
-      - "8000:8000"
+backend:
+  build: ./backend
+  container_name: ipllive_backend
+  ports:
+    - "8000:8000"
 
-  frontend:
-    build: ./frontend
-    ports:
-      - "8501:8501"
-    depends_on:
-      - backend
+frontend:
+  build: ./frontend
+  container_name: ipllive_frontend
+  ports:
+    - "8501:8501"
+  depends_on:
+    - backend

@@ -211,10 +211,7 @@ if st.button('Predict Probability'):
     }
 
     try:
-        response = requests.post(
-            "http://backend:8000/predict",
-            json=data
-        )
+        response = requests.post("http://backend:8000/predict", json=data)
 
     except:
         st.error("⚠️ FastAPI server is not running")
