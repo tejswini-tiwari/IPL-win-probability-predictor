@@ -46,6 +46,7 @@ This project predicts the winning probability of the batting and bowling teams b
 
 ---
 
+```
 ## 📂 Project Structure
 
 IPL-Win-Predictor/
@@ -62,7 +63,7 @@ IPL-Win-Predictor/
 │   └── Dockerfile
 │
 └── docker-compose.yml
-
+````
 ---
 
 ## ⚙️ API Endpoint
