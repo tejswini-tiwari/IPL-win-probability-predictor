@@ -1,5 +1,3 @@
-
-```md
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
@@ -48,38 +46,7 @@ This project predicts the winning probability of the batting and bowling teams b
 
 ---
 
-## 🏗️ Project Architecture
-
-```
-
-┌──────────────────────┐
-│     Streamlit UI     │
-│      (Frontend)      │
-│   Port: 8501         │
-└───────────┬──────────┘
-│ HTTP Request
-▼
-┌──────────────────────┐
-│      FastAPI API     │
-│     ML Prediction    │
-│      Port: 8000      │
-└──────────────────────┘
-
-````
-
-Frontend communicates with backend using Docker internal networking:
-
-```
-
-http://backend:8000/predict
-
-```
-
----
-
 ## 📂 Project Structure
-
-```
 
 IPL-Win-Predictor/
 │
@@ -195,8 +162,8 @@ streamlit run app.py
 
 Available on Docker Hub:
 
-* `YOUR_USERNAME/ipl-win-predictor-backend`
-* `YOUR_USERNAME/ipl-win-predictor-frontend`
+* `tejswinitiwari/ipl-win-predictor-backend`
+* `tejswinitiwari/ipl-win-predictor-frontend`
 
 ---
 
@@ -207,16 +174,6 @@ Available on Docker Hub:
 * Docker networking between services
 * Production-style ML API design
 * Frontend ↔ Backend communication
-
----
-
-## 📸 Demo
-
-(Add screenshots here)
-
-```
-![App Screenshot](screenshots/app.png)
-```
 
 ---
 
@@ -237,9 +194,3 @@ International Institute of Professional Studies, DAVV
 * Cloud deployment (AWS/GCP)
 
 ---
-
-## 📜 License
-
-MIT License
-
-```
