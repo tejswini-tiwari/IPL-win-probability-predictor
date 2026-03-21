@@ -4,9 +4,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
 ![ML](https://img.shields.io/badge/MachineLearning-ScikitLearn-orange)
-````
 
-```md
 # 🏏 IPL Live Win Probability Predictor
 
 A **Machine Learning powered IPL match win predictor** deployed using a **FastAPI backend** and **Streamlit frontend**, fully containerized with **Docker** and runnable using **Docker Compose**.
