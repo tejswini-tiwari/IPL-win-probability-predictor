@@ -102,9 +102,10 @@ IPL-Win-Predictor/
 ### ✅ Prerequisites
 
 Install:
-
 * Docker Desktop
 * Docker Compose
+Download:
+* docker-compose.yml
 
 ---
 
