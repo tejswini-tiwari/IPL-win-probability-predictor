@@ -1,4 +1,3 @@
-# 📄 README.md
 
 ```md
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
