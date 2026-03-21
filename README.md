@@ -63,8 +63,6 @@ IPL-Win-Predictor/
 │
 └── docker-compose.yml
 
-````
-
 ---
 
 ## ⚙️ API Endpoint
